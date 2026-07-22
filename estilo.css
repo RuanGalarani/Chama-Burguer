@@ -1,0 +1,60 @@
+/*Reset + Variaveis */
+
+:root{
+    --color-primary:#E63946;~
+    --color-primary-dark: #C1272D;
+    --color-accent:#F4A300;
+    --color-dark:#201a17;
+    --color-light:#FFF7ED;
+    --color-gray:#6b7280;
+    --radius:14px;
+    --font-titulos:'Anton','Impact',sans-serif
+    --font-base: 'Inter', 'Robot', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--font-base);
+    color: var(--color-dark);
+    line-height: 1.6;
+}
+
+h1,h2,h3{
+    font-family: var(--font-titulo);
+    font-weight: 400;
+    letter-spacing: 0.5;
+
+    a{
+        text-decoration: none;
+        color: inherit;
+    }
+    ul{
+        list-style: none;
+    }
+
+    img{
+        max-width: 100%;
+        display: block;
+    }
+    /*Botões + Header*/
+
+    .btn{
+        display: inline-block;
+        padding: 14px 30px;
+        border-radius: 999px;
+        font-weight: 600;
+        font-family: var(--font-base);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+    }
+
+    .btn:hover{
+        transform: translateY(-2px);
+    }
+    
+}
